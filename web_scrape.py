@@ -1,6 +1,5 @@
 import requests
-# get world back data
-import wbdata
+import wbdata  # get world bank data
 from app import db
 from app.models import RenewableEnergyCountry
 from bs4 import BeautifulSoup
